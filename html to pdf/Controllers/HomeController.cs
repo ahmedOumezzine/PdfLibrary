@@ -30,10 +30,7 @@ namespace html_to_pdf.Controllers
         {
             return new ActionAsImage("Index")
             {
-                FileName = "fileName.pdf",
-                PageSize = Size.A4,
-                PageOrientation = Orientation.Portrait,
-                PageMargins = { Left = 0, Right = 0 },
+                FileName = "fileName.pdf"
             };
         }
 

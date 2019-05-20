@@ -335,9 +335,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Convert\Ticket.cshtml" />
-    <Content Include="Views\Convert\Invoice.cshtml" />
+    <Content Include="Views\Convert\Invoice1.cshtml" />
     <Content Include="Views\Convert\Link.cshtml" />
     <Content Include="Views\Convert\Html.cshtml" />
+    <Content Include="Views\Convert\Invoice.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

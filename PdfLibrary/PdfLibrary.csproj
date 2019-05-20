@@ -68,10 +68,13 @@
     <Compile Include="ActionAsPdf\AsPdfResultBase.cs" />
     <Compile Include="ActionAsImage\AsImageResultBase.cs" />
     <Compile Include="AsResultBase.cs" />
+    <Compile Include="Extensions\ControllerContextExtensions.cs" />
     <Compile Include="Options\Enums.cs" />
     <Compile Include="Options\Margins.cs" />
     <Compile Include="Options\OptionFlag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewAsImage\ViewAsImage.cs" />
+    <Compile Include="ViewAsPdf\ViewAsPdf.cs" />
     <Compile Include="Wkhtml\WkhtmlDriver.cs" />
     <Compile Include="Wkhtml\WkhtmltoimageDriver.cs" />
     <Compile Include="Wkhtml\WkhtmltopdfDriver.cs" />

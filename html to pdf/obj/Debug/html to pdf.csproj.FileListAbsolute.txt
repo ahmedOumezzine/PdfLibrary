@@ -186,3 +186,5 @@ C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\obj\Debug\html t
 C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\obj\Debug\html to pdf.csproj.CopyComplete
 C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\obj\Debug\html to pdf.dll
 C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\obj\Debug\html to pdf.pdb
+C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\bin\PdfLibrary.dll
+C:\Users\ahmed\Source\Repos\ahmedOumezzine\html2pdf\html to pdf\bin\PdfLibrary.pdb

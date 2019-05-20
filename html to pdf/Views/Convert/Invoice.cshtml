@@ -3,5 +3,21 @@
     ViewBag.Title = "Invoice";
 }
 
-<h2>Invoice</h2>
 
+<div class="page-header">
+    <h1>      <i class="md md-camera"></i>      Invoice 1    </h1>
+    <p class="lead"> deszcription </p>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="well white">
+            @Html.Action("Invoice1")
+        </div>
+    </div>
+
+
+    <div class="col-md-12" style="color:#000;">
+        <a href="@Url.Action("PDFtest","Convert")" class="btn btn-info">Print</a>
+        <a href="@Url.Action("PNGtest","Convert")" class="btn btn-info">Print</a>
+    </div>
+</div>
