@@ -3,11 +3,31 @@
     <p class="lead"> We can easily generate the pdf using their library </p>
 </div>
 
-﻿Tools like Crystal Reports can be used to print views displaying reports, and can even create and print these reports in a printer friendly document. To do so, the report has to be converted into PDF by exporting it to a stream and then converting that stream into a PDF.
+<p class="text-muted">
+    Generating PDF, reports or any document in MVC is generally the basic requirement in most of the projects.
+</p>
+<p class="text-muted">
+    Let’s imagine that we have a .NET Web project in which we need to generate a PDF report. Even though it shouldn’t suppose to be too hard to do something like that, we could end up in losing too much time if we don’t know how to do it properly.
+    for exemple tools like Crystal Reports can be used to print views displaying reports, and can even create and print these reports in a printer friendly document.
+</p>
+<p class="text-muted">
+
+    It turns out there is a pretty simple way to enable the generation of PDF files in an ASP.NET MVC application using the same Razor view engine that you’re probably already using. This allows you to make use of view models, HTML helpers, etc. in your PDF logic. The code here is based primarily on the code in MVC itself, specifically the ActionResult and ViewResult classes.
+    PdfLibrary is an asp.net library which helps in spawning PDFs from MVC controller.This tool gives us the flexibility to create PDFs directly from views or partial views .
+</p>
+<p class="text-muted">
+    PdfLibrary is based on the wkhtmltopdf tool to create a PDF document from HTML that renders in the browser.
+</p>
 
 
 
-Generating PDF, reports or any document in MVC is generally the basic requirement in most of the projects.
-PdfLibrary is an asp.net library which helps in spawning PDFs from MVC controller.This tool gives us the flexibility to create PDFs directly from views or partial views .
+<div class="element-block">
+    <h5>Demo </h5>
+    <p>
+        <button class="btn btn-primary btn-lg">Html<div class="ripple-wrapper"></div></button>
+        <button class="btn btn-success btn-lg">Invoice<div class="ripple-wrapper"></div></button>
+        <button class="btn btn-info btn-lg">ticket<div class="ripple-wrapper"></div></button>
+        <button class="btn btn-warning btn-lg">Badge<div class="ripple-wrapper"></div></button>
+    </p>
 
-PdfLibrary is based on the wkhtmltopdf tool to create a PDF document from HTML that renders in the browser.
+</div>

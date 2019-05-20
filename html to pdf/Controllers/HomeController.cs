@@ -47,9 +47,8 @@ namespace html_to_pdf.Controllers
         }
 
 
-        public ActionResult About()
+        public ActionResult HowUse()
         {
-            ViewBag.Message = "Your application description page.";
 
             return View();
         }
