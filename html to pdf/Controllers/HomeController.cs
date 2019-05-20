@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PdfLibrary;
+using PdfLibrary.Options;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +14,27 @@ namespace html_to_pdf.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+        public ActionResult PDFtest()
+        {
+            return new ActionAsPdf("Index")
+            {
+                FileName = "fileName.pdf",
+                PageSize = Size.A4,
+                PageOrientation = Orientation.Portrait,
+                PageMargins = { Left = 0, Right = 0 },
+            };
+        }
+
+        public ActionResult Pngtest()
+        {
+            return new ActionAsImage("Index")
+            {
+                FileName = "fileName.pdf",
+                PageSize = Size.A4,
+                PageOrientation = Orientation.Portrait,
+                PageMargins = { Left = 0, Right = 0 },
+            };
         }
 
         [HttpPost]

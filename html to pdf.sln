@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "html to pdf", "html to pdf\html to pdf.csproj", "{1C2BE74D-46F3-42E3-9FDF-0678E4FBFD4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfLibrary", "PdfLibrary\PdfLibrary.csproj", "{490BC70D-2E94-4531-A34D-FB4EBEE22A82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1C2BE74D-46F3-42E3-9FDF-0678E4FBFD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2BE74D-46F3-42E3-9FDF-0678E4FBFD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2BE74D-46F3-42E3-9FDF-0678E4FBFD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490BC70D-2E94-4531-A34D-FB4EBEE22A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490BC70D-2E94-4531-A34D-FB4EBEE22A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490BC70D-2E94-4531-A34D-FB4EBEE22A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490BC70D-2E94-4531-A34D-FB4EBEE22A82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

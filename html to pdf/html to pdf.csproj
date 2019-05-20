@@ -221,6 +221,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="PdfLibrary\help-wkhtmltoimage.txt" />
+    <Content Include="PdfLibrary\help-wkhtmltopdf.txt" />
+    <Content Include="PdfLibrary\wkhtmltoimage.exe" />
+    <Content Include="PdfLibrary\wkhtmltopdf.exe" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -351,6 +355,12 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PdfLibrary\PdfLibrary.csproj">
+      <Project>{490BC70D-2E94-4531-A34D-FB4EBEE22A82}</Project>
+      <Name>PdfLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
